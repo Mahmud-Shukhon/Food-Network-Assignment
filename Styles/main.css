@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+    display: flex;
+    color: darkslategray;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+#head-charm{
+    font-size: 40px;
+}
+
+.orange-text{
+    color: orange;
+}
