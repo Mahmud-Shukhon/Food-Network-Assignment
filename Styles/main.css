@@ -26,6 +26,10 @@ body{
     color: orange;
 }
 
+#grey-text{
+    color: gray;
+}
+
 .button{
     text-decoration: none;
     color: white;
@@ -56,7 +60,7 @@ body{
 }
 
 #recipe-section{
-
+    margin-bottom: 150px;
     color: darkslategray;
 }
 
@@ -92,4 +96,24 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+}
+
+#social-media-section{
+    color: darkslategray;
+}
+
+#media-links{
+    display: flex;
+}
+
+.links{
+    margin-right: 100px;
+    float: left;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
