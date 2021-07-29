@@ -36,6 +36,8 @@ body{
     background: linear-gradient(90deg, #FBA24F, #FF1E1E);
     padding: 10px;
     border-radius: 20px;
+    position: relative;
+    top: 25px;
 }
 
 .see-more-button{
@@ -49,9 +51,9 @@ body{
 }
 
 #aboutus-section{
+    background-image: url(../Images/shapes/7.png);
     display: flex;
     color: darkslategray;
-    background-image: url(Images\shapes\7.png);
     margin-bottom: 100px;    
 }
 
@@ -65,8 +67,7 @@ body{
 }
 
 .center-content{
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #recipe-head{
@@ -80,14 +81,18 @@ body{
     margin-left: 5%;
     margin-right: 10%;
 }
+
 .food-items{
-    
     float: left;
     margin-right: 5%;
     max-width: 33%;
     box-shadow: 5px 5px 5px 5px gray;
     border-radius: 20px;
     padding: 10px;
+}
+
+.food-items h2{
+    text-align: center;
 }
 
 .food-item-image{
@@ -111,9 +116,55 @@ body{
     float: left;
 }
 
+#link-orientation{
+    align-content: center;
+}
+
 footer{
     background-color: black;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#fb-icon{
+    height: 92px;
+    position: relative;
+    top: -3px;
+    left: 290px;
+}
+
+#twt-icon{
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: 230px;
+}
+
+#ig-icon{
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: 180px;
+}
+
+#youtube-icon{
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: 140px;
+}
+
+#pin-icon{
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: 60px;
+}
+
+#snap-icon{
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: -5px;
 }
